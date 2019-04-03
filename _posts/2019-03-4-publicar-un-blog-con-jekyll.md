@@ -1,4 +1,7 @@
-# Publicar un blog con Jekyll
+---
+layout: post
+title: Publicar un blog con Jekyll
+---
 
 Jekyll y Github Pages me permiten publicar un blog con páginas estáticas. Primero estuve buscando plantillas de Jekyll y encontré http://lanyon.getpoole.com que me gustó bastante por su diseño muy simple.
 
