@@ -11,9 +11,7 @@ Aparentemente esta plantilla no está actualizada con la nueva versión de Jekyl
 
     Your site is using the `relative_permalinks` configuration option...
 
-Para arreglar este problema tuve que editar el archivo *_config.yml* quitando la opción de *relative_permalinks*.
+Para arreglar este problema tuve que editar el archivo *_config.yml* quitando la opción de *relative_permalinks*. También tuve que modificar los enlaces de la página *index.html*.
 
-También tube que modificar los enlaces de la página *index.html* 
-
-Todos los cambios necesario los encontré en el siguiente pull request: <https://github.com/poole/lanyon/pull/149/files>   
+Todos los cambios necesarios los encontré en el siguiente pull request: <https://github.com/poole/lanyon/pull/149/files>   
 
