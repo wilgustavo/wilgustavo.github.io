@@ -125,3 +125,4 @@ Eso es todo! Ejecutamos la aplicación escribiendo la siguiente sentencia en la 
 
 Probamos la aplicación abriendo la página <http://localhost:8080/hola> en el navegador.
 
+Los fuentes de este proyecto los tienes en el [repositorio git](https://github.com/wilgustavo/hola-spring/tree/hola).
