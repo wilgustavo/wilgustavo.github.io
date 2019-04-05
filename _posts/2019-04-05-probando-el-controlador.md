@@ -10,11 +10,11 @@ Primero debemos indicar las dependencias a las librerías de test en el archivo 
 Agregamos estas líneas dentro del elemento *dependencies*
 
 ```xml
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
+  <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-test</artifactId>
+    <scope>test</scope>
+  </dependency>
 ```
 
 Este conjunto de librerías contiene **JUnit** y herramientas de testing.
@@ -44,9 +44,9 @@ public class HolaControllerTest {
   @Test
   public void saludarDeberiaRetornarUnMensaje() throws Exception{
     mockMvc
-      .perform(get("/hola"))
-      .andExpect(status().isOk())
-      .andExpect(content().string("Mi vieja mula ya no es lo que era"));
+    .perform(get("/hola"))
+    .andExpect(status().isOk())
+    .andExpect(content().string("Mi vieja mula ya no es lo que era"));
   }
 }
 ```
