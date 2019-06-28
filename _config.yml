@@ -23,3 +23,5 @@ version:             Beta-0.9.91
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
+
