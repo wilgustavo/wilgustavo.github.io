@@ -21,5 +21,5 @@ Inluye una opción *compilerMode* para indicar la version de Java (por defecto u
 
 Otras mejoras con respecto a otros arquetipos es que crea directorios *main* y *test* pero no incluye ejemplos.
 
-* Mas infomación en la página de GitHub: https://github.com/mikolak-net/java8-quickstart-archetype
+* Mas infomación en la página de GitHub: [https://github.com/mikolak-net/java8-quickstart-archetype](https://github.com/mikolak-net/java8-quickstart-archetype)
 
