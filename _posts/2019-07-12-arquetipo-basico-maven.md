@@ -17,9 +17,9 @@ mvn archetype:generate -B
  -Dpackage=com.example.project
 ```
 
-Inluye una opción *compilerMode* para indicar la version de Java (por defecto utiliza JDK8). Tambien una opción *testLibrary* para cambiar la librería de testing, que por defecto incluye una versión de JUnit 4.
+Incluye una opción *compilerMode* para indicar la versión de Java (por defecto utiliza JDK8). También tiene una opción *testLibrary* para cambiar la librería de testing, que por defecto utiliza una versión de JUnit 4.
 
-Otras mejoras con respecto a otros arquetipos es que crea directorios *main* y *test* pero no incluye ejemplos.
+Otras mejoras con respecto a otros arquetipos es que crea directorios *main* y *test* pero no crear fuentes de ejemplos, que siempre terminamos borrando.
 
 * Mas infomación en la página de GitHub: [https://github.com/mikolak-net/java8-quickstart-archetype](https://github.com/mikolak-net/java8-quickstart-archetype)
 
