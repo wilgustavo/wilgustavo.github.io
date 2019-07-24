@@ -103,7 +103,9 @@ curl -F file=@imagen.jpg http://httpbin.org/post
 
 Para enviar datos de un formulario es posible utilizar la opción data-urlencode que codifica los datos con el formato url-encode.
 ```
-curl https://httpbin.org/post --data-urlencode "email=test@example.com" --data-urlencode "name=Jon Snow"
+curl https://httpbin.org/post \
+       --data-urlencode "email=test@example.com" \
+       --data-urlencode "name=Jon Snow"
 ```
 
 ## Autenticación
@@ -153,5 +155,5 @@ El comando responde con error cuando supera el tiempo de espera.
 
 ## Mas información
 
-* https://ec.haxx.se
-* https://curl.haxx.se/docs/manpage.html
+* [ec.haxx.se](https://ec.haxx.se)
+* [curl.haxx.se/docs/manpage.html](https://curl.haxx.se/docs/manpage.html)
