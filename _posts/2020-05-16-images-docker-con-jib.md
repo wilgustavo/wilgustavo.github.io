@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Crear imagenes Docker con Jib
+title: Crear imágenes Docker con Jib
 ---
 
 Cuando creamos imágenes de Docker con nuestros programas queremos aplicar las mejores prácticas.
