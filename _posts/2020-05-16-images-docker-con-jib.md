@@ -16,22 +16,22 @@ Pero crear una imagen que aplique estas pautas es bastante complicado. Por suert
 Para utilizar JIB en Maven, editar el archivo pom.xml y agregar el siguiente plugin
 
 ```xml
-		<plugins>
-			<plugin>
-				<groupId>com.google.cloud.tools</groupId>
-				<artifactId>jib-maven-plugin</artifactId>
-				<version>2.2.0</version>
-				<configuration>
-					<to>
-						<image>docker.io/wilgustavo/hola</image>
-						<tags>
-							<tag>0.1</tag>
-							<tag>latest</tag>
-						</tags>
-					</to>
-				</configuration>
-			</plugin>
-		</plugins>
+<plugins>
+    <plugin>
+        <groupId>com.google.cloud.tools</groupId>
+        <artifactId>jib-maven-plugin</artifactId>
+        <version>2.2.0</version>
+        <configuration>
+            <to>
+                <image>docker.io/wilgustavo/hola</image>
+                <tags>
+                    <tag>0.1</tag>
+                    <tag>latest</tag>
+                </tags>
+            </to>
+        </configuration>
+    </plugin>
+</plugins>
 ```
 
 El plugin requiere la siguiente configuración:
