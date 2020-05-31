@@ -3,8 +3,6 @@ layout: post
 title: Testcontainers
 ---
 
-# Testcontainers
-
 A menudo acudimos a una base de datos en memoria, como H2, para realizar pruebas de integración. Pero siempre es aconsejable usar el mismo motor de base de datos que utilizaremos en producción. Para ello nos puede ayudar Testcontainers que genera contenedores con la base de datos que necesitemos.
 
 Podemos incluir Testcontainers en una aplicación de Spring Boot para realizar los test de integración. Para esta demostración utilizaremos Spring Boot 2.3, Junit 5, MySql y Testcontainer.
@@ -56,7 +54,8 @@ Creamos un archivo contactos.sql con datos de prueba.
 ```sql
 insert into contacto (id, email, nombre)
 values
-('979177d9-1ff5-4c02-8dc6-0d2c60df8ffd', 'homer@email.com', 'Cosme Fulanito');
+('979177d9-1ff5-4c02-8dc6-0d2c60df8ffd', 
+  'homer@email.com', 'Cosme Fulanito');
 ```
 
 Antes de iniciar las pruebas, escribimos una clase abstracta que nos sirve de base a todas las pruebas de integración con MySQL.
